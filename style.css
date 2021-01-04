@@ -1,5 +1,5 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Redressed', cursive;
     margin:0;
 
 }
@@ -13,6 +13,7 @@ h1{
 .name-heighlilght{
     color:chocolate;
 }
+
 
 .helf-width{
     width:40%;
@@ -42,6 +43,10 @@ section{
     padding: 10px 20px;
     color: #fff;
     font-weight: 200;
+    transition:3s;
+}
+.link-btn:hover{
+    background-image:linear-gradient(green, blue);
 }
 p{
     color: dimgray;
